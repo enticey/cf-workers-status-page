@@ -27,4 +27,4 @@ monitors:
     description: 'Image sharing thanks to the B2/CF Bandwidth Alliance.'
     url: 'https://f000.backblazeb2.com/'
     method: GET
-    expectStatus: 200
+    expectStatus: 301 # not actually sure about using a redirect here
