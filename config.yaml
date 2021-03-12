@@ -25,6 +25,6 @@ monitors:
   - id: f000-backblazeb2-com
     name: Image Sharing
     description: 'Image sharing thanks to the B2/CF Bandwidth Alliance.'
-    url: 'https://f000.backblazeb2.com/'
+    url: 'https://img.unrealninjas.com'
     method: GET
-    expectStatus: 301 # not actually sure about using a redirect here
+    expectStatus: 400 # 400 is good, the client just isn't asking for a filename so it is considered a bad request.
