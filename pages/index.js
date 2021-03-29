@@ -94,6 +94,11 @@ export default function Index({ config, kvMonitors, kvMonitorsLastUpdate }) {
               Back to our main site
             </a>
           </div>
+          <div>
+            <a>
+              Miza is responsible for all broke things.
+            </a>
+          </div>
         </div>
       </div>
     </div>
